@@ -10,8 +10,13 @@ public class RomanNumberTest {
         assertEquals("I", toRoman(1));
     }
 
+    @Test
+     void shouldTransformTwoToII() {
+        assertEquals("II", toRoman(2));
+    }
+
     private String toRoman(int i) {
-        return "";
+        return "I";
     }
 
 }
